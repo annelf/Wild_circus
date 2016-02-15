@@ -1,0 +1,154 @@
+@font-face {
+    font-family: 'grutchshadedregular';
+    src: url('polices/grutchShaded-webfont.eot');
+    src: url('polices/grutchShaded-webfont.eot?#iefix') format('embedded-opentype'),
+         url('polices/grutchShaded-webfont.woff') format('woff'),
+         url('polices/grutchShaded-webfont.ttf') format('truetype'),
+         url('polices/grutchShaded-webfont.svg#grutchshadedregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'aaarghnormal';
+    src: url('polices/aaargh-webfont.eot');
+    src: url('polices/aaargh-webfont.eot?#iefix') format('embedded-opentype'),
+         url('polices/aaargh-webfont.woff') format('woff'),
+         url('polices/aaargh-webfont.ttf') format('truetype'),
+         url('polices/aaargh-webfont.svg#aaarghnormal') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+  font-family: 'Trebuchet MS', Arial, sans-serif;
+  color: #181818;
+  background-image: url('images/background_circus_2.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+header h1, article h2, nav a, aside h2, h2 {
+  font-family: grutchshadedregular, serif;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+article h3  {
+  font-family: aaarghnormal, serif;
+  font-weight: normal;
+}
+
+header {
+  background: url('images/header_background_3.jpg');
+  background-repeat: no-repeat;
+  width: 980px;
+  height: 150px;
+  margin: 0 auto;
+  border-radius: 50px 50px 50px 50px;
+}
+ 
+nav {
+  text-align: center;
+}
+
+li {
+  display: inline;
+  font-family: aaargh-webfont, serif;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+}
+
+nav li
+{
+  margin-right: 15px;
+}
+
+nav a 
+{
+  font-size: 1.3em;
+  color: #181818;
+  padding-bottom: 12px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #760001;
+  border-bottom: 3px solid #760001;
+}
+
+h1 {
+  text-align: center;
+  font-size: 30px;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+} 
+
+.first {
+  font-style: italic;
+  text-align: center;
+}
+
+.fifth {
+  height: 100px;
+  width: 500px;
+  margin: 0 auto;
+  text-align: right;
+}
+
+.sixth {
+  height: 500px;
+  width : 500px;
+  margin: 0 auto;
+  text-align: right;
+}
+
+.seventh {
+  height: 500px;
+  width: 500px;
+  margin: 0 auto;
+  text-align: right;
+}
+
+.eight {
+  height: 500px;
+  width: 500px;
+  margin: 0 auto;
+  text-align: right;
+}
+
+article {
+  height: 500px;
+  width: 550px;
+  margin: 0 auto;
+  border: 1px solid black;
+  padding: 40px;
+  margin-bottom: 20px;
+  text-align: justify;
+  background: white;
+  border-radius: 10px;
+}
+
+aside {
+  flex: 1.2em;
+  width: 200px;
+  height: 300px;
+  position: absolute;
+  background-color: #c6bd9e;
+  border-radius: 10px;
+  padding: 20px;
+  color: white;
+  font-size: 0.9em;
+  text-align: justify;
+}
