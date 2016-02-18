@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<met charset="utf-8" />
+	<link rel="stylesheet" href="stylesheet.css" />
+	<title>Wanderlust - About us</title>
+</head>
+
+<body>
+  <header>
+   <h1>Wild Circus</h1>
+    <nav>
+      <ul>
+       <li><a href="home.html">Home</a></li>
+       <li><a href="about_us.html">About us</a></li>
+       <li><a href="flying_dogs.html">Flying Dogs</a></li>
+       <li><a href="pinky_dolls.html">Pinky Dolls</a></li>
+       <li><a href="rocky_horror.html">Rocky Horror</a></li>
+      </ul>  
+    </nav>
+  </header>
+
+<div class="eight">
+		<h2>Rocky Horror</h2>
+	<p>
+		The final show will blow up your mind. Creatures you couldn't even imagine will take over the ring. Fire breathing, knife throwing, magic shows, equestrian performance, mermaids ...<br>
+		All together for the Rocky Horror Parade.</p>
+
+		<figure>
+      <img src="images/image_1_cirque_presentation_2.png" alt="image de cirque" />
+    </figure>
+</div>
+
+</body>
+</html>
