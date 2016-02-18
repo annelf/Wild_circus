@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<met charset="utf-8" />
+	<link rel="stylesheet" href="stylesheet.css" />
+	<title>Wanderlust - About us</title>
+</head>
+
+<body>
+  <header>
+   <h1>Wild Circus</h1>
+    <nav>
+      <ul>
+       <li><a href="home.html">Home</a></li>
+       <li><a href="about_us.html">About us</a></li>
+       <li><a href="flying_dogs.html">Flying Dogs</a></li>
+       <li><a href="pinky_dolls.html">Pinky Dolls</a></li>
+       <li><a href="rocky_horror.html">Rocky Horror</a></li>
+      </ul>  
+    </nav>
+  </header>
+
+<div class="fifth">
+		<h2>About us</h2>
+	<p class="fifth">
+		We are an international circus company. Our shows bring together the best artists and high-level athletes to propose you a unique moment with us. We believe in the power of dreaming, and our only goal is to make you travel beyond the reality.
+	</p>
+  <figure>
+    <img src="images/about_us_image_1.png" alt="chapiteau" />
+  </figure>  
+</div>
+
+
+</body>
+</html>
