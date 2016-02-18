@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<met charset="utf-8" />
+	<link rel="stylesheet" href="stylesheet.css" />
+	<title>Wanderlust - About us</title>
+</head>
+
+<body>
+  <header>
+   <h1>Wild Circus</h1>
+    <nav>
+      <ul>
+       <li><a href="home.html">Home</a></li>
+       <li><a href="about_us.html">About us</a></li>
+       <li><a href="flying_dogs.html">Flying Dogs</a></li>
+       <li><a href="pinky_dolls.html">Pinky Dolls</a></li>
+       <li><a href="rocky_horror.html">Rocky Horror</a></li>
+      </ul>  
+    </nav>
+  </header>
+
+<div class="seventh">
+		<h2>Pinky Dolls</h2>
+	<p>
+		Pinky Dolls are our burlesque performers. A journey into the 20s in a poetic mood with some dark sides. Gentlemen, these ladies will capsize your hearts, Ladies, watch your men ! Applaud louder : Misty, Becky, Goldie, Brunie, Pearl, Painkiller, Sweetdeath, Shina, Silklove and Miss Leather.</p>
+  <figure>  
+		<img src="images/pinky_dolls_2.png" alt="troupe_fille" />
+  </figure> 
+</div>
+
+
+</body>
+</html>
