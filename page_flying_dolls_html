@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<met charset="utf-8" />
+	<link rel="stylesheet" href="stylesheet.css" />
+	<title>Wanderlust - About us</title>
+</head>
+
+<body>
+  <header>
+   <h1>Wild Circus</h1>
+    <nav>
+      <ul>
+       <li><a href="home.html">Home</a></li>
+       <li><a href="about_us.html">About us</a></li>
+       <li><a href="flying_dogs.html">Flying Dogs</a></li>
+       <li><a href="pinky_dolls.html">Pinky Dolls</a></li>
+       <li><a href="rocky_horror.html">Rocky Horror</a></li>
+      </ul>  
+    </nav>
+  </header>
+
+<div class="sixth">
+		<h2>Flying Dogs</h2>
+	   <p>
+		Come to see Roger and his adorable puppies : Sweety, Mocca, Flavory and Kickas.<br />
+		Be surprised by their talent of juggler, tightrope walker and acrobat. They do not down the moon for you but you can expect the stars.
+     </p>
+      <figure>
+		   <img src="images/flying_dogs_2.jpg" alt="image_chien" />
+      </figure>
+</div>
+
+
+</body>
+</html>
