@@ -1,48 +1,48 @@
 @font-face {
-    font-family: 'grutchshadedregular';
+    font-family: 'GrutchShadedregular';
     src: url('polices/grutchShaded-webfont.eot');
     src: url('polices/grutchShaded-webfont.eot?#iefix') format('embedded-opentype'),
          url('polices/grutchShaded-webfont.woff') format('woff'),
          url('polices/grutchShaded-webfont.ttf') format('truetype'),
-         url('polices/grutchShaded-webfont.svg#grutchshadedregular') format('svg');
+         url('polices/grutchShaded-webfont.svg#GrutchShadedregular') format('svg');
     font-weight: normal;
     font-style: normal;
 
 }
 
 @font-face {
-    font-family: 'aaarghnormal';
+    font-family: 'Aaarghnormal';
     src: url('polices/aaargh-webfont.eot');
     src: url('polices/aaargh-webfont.eot?#iefix') format('embedded-opentype'),
          url('polices/aaargh-webfont.woff') format('woff'),
          url('polices/aaargh-webfont.ttf') format('truetype'),
-         url('polices/aaargh-webfont.svg#aaarghnormal') format('svg');
+         url('polices/aaargh-webfont.svg#Aaarghnormal') format('svg');
     font-weight: normal;
     font-style: normal;
 
 }
 
 body {
-  font-family: 'Trebuchet MS', Arial, sans-serif;
+  font-family: 'Comic Sans MS', Arial, sans-serif;
   color: #181818;
-  background-image: url('images/background_circus_2.jpg');
+  background-image: url('images/background_circus_2.png');
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
 
-header h1, article h2, nav a, aside h2, h2 {
-  font-family: grutchshadedregular, serif;
+header h1, article h2, nav a, aside h2, h2, em {
+  font-family: 'GrutchShadedregular', 'Comic Sans MS', serif;
   font-weight: normal;
   text-transform: uppercase;
 }
 
-article h3  {
-  font-family: aaarghnormal, serif;
+article {
+  font-family: 'Aaarghnormal', 'Times New Roman', serif;
   font-weight: normal;
 }
 
 header {
-  background: url('images/header_background_3.jpg');
+  background: url('images/header_background_3.png');
   background-repeat: no-repeat;
   width: 980px;
   height: 150px;
@@ -50,9 +50,6 @@ header {
   border-radius: 50px 50px 50px 50px;
 }
  
-nav {
-  text-align: center;
-}
 
 li {
   display: inline;
@@ -69,7 +66,7 @@ nav ul {
 
 nav li
 {
-  margin-right: 15px;
+  margin-right: 60px;
 }
 
 nav a 
@@ -130,14 +127,21 @@ img {
 
 article {
   height: 500px;
-  width: 550px;
+  max-width: 550px;
   margin: 0 auto;
-  border: 1px solid black;
   padding: 40px;
   margin-bottom: 20px;
-  text-align: justify;
-  background: white;
   border-radius: 10px;
+}
+
+@media (max-width: 500px) {
+  h1 {
+    text-align: center;
+  }
+  li {
+    display: block;
+    padding: 5px;
+  }
 }
 
 aside {
@@ -145,10 +149,12 @@ aside {
   width: 200px;
   height: 300px;
   position: absolute;
-  background-color: #c6bd9e;
-  border-radius: 10px;
   padding: 20px;
   color: white;
   font-size: 0.9em;
-  text-align: justify;
+  text-align: left;
+}
+
+figure {
+  margin: 0 auto;
 }
